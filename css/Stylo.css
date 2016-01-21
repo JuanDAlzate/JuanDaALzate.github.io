@@ -8,7 +8,7 @@ h1{
 
 footer{
 	background: rgba(73,38,38,0.2);
-	height: 180px;
+	height: 260px;
 }
 .btn{
 	font-family: 'Signika Negative', sans-serif;
@@ -18,14 +18,19 @@ footer{
     background-color: transparent;
     color:#5F5F5F ;
     font-weight: 600;
-    margin: 10px 0;
+    margin: 5px 2px;
     display: inline-block;
     transition: 0.6s;
     box-shadow: 0px 1px 3px black;
 }
 .btn:hover{
-    transform: scale(1.5);
+    transform: scale(1.1);
     letter-spacing: 3px;
     background-color:#E9F6CF ;
     color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+.thumbnail{
+	background: transparent;
 }
